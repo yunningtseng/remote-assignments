@@ -1,0 +1,86 @@
+// NOTE grid
+// $grid-breakpoints: (
+//   xs: 0,
+//   mb: 376px,
+//   sm: 576px,
+//   md: 769px,
+//   lg: 992px,
+//   xl: 1200px,
+// );
+
+// NOTE color
+$primary: #ccddee;
+$secondary: #8899aa;
+$info: #a4b31f;
+$dark: #3f3838;
+$light: #eeeeee;
+$warning: #901824;
+$text-muted: #848484;
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "info": $info,
+  "dark": $dark,
+  "light": $light,
+  "warning": $warning,
+  "text-muted": $text-muted,
+);
+
+// NOTE font-size
+// $font-size-base: 1rem;
+// $font-size: () !default;
+// $font-size: map-merge(
+//   (
+//     "xs": (
+//       $font-size-base * 0.75,
+//     ),
+//     "sm": (
+//       $font-size-base * 0.875,
+//     ),
+//     "base": $font-size-base,
+//     "lg": (
+//       $font-size-base * 1.25,
+//     ),
+//     "xl": (
+//       $font-size-base * 1.5,
+//     ),
+//     "2xl": (
+//       $font-size-base * 1.75,
+//     ),
+//     "3xl": (
+//       $font-size-base * 2,
+//     ),
+//     "4xl": (
+//       $font-size-base * 2.5,
+//     ),
+//   ),
+//   $font-size
+// );
+
+// NOTE spacer
+// $spacer: 1rem;
+// $spacers: (
+//   0: 0,
+//   1: $spacer * 0.25,
+//   2: $spacer * 0.375,
+//   3: $spacer * 0.5,
+//   4: $spacer * 0.75,
+//   5: $spacer,
+//   6: $spacer * 1.25,
+//   7: $spacer * 1.5,
+//   8: $spacer * 1.75,
+//   9: $spacer * 2,
+//   10: $spacer * 2.25,
+//   11: $spacer * 2.5,
+//   12: $spacer * 3.75,
+//   13: $spacer * 4.5,
+//   14: $spacer * 5,
+//   15: $spacer * 7,
+//   16: $spacer * 7.5,
+//   17: $spacer * 7.5,
+// );
+
+// $space-types: (
+//   "mt": "margin-top",
+//   "pt": "padding-top",
+// );

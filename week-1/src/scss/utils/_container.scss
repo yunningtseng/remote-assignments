@@ -1,0 +1,26 @@
+.home__container {
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.home__container__content {
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+}
+
+.home__contentBox {
+  margin: 0 10px 20px 10px;
+  width: 600px;
+}
+
+@media (max-width: 500px) {
+  .home__container__content {
+    display: block;
+  }
+
+  .home__contentBox {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
