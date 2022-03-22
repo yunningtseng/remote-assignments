@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/remote-assignments/week-1/static/css/main.da916936.chunk.css",
-    "main.js": "/remote-assignments/week-1/static/js/main.b9d1dc60.chunk.js",
-    "main.js.map": "/remote-assignments/week-1/static/js/main.b9d1dc60.chunk.js.map",
-    "runtime-main.js": "/remote-assignments/week-1/static/js/runtime-main.37006e08.js",
-    "runtime-main.js.map": "/remote-assignments/week-1/static/js/runtime-main.37006e08.js.map",
-    "static/js/2.9ed747f7.chunk.js": "/remote-assignments/week-1/static/js/2.9ed747f7.chunk.js",
-    "static/js/2.9ed747f7.chunk.js.map": "/remote-assignments/week-1/static/js/2.9ed747f7.chunk.js.map",
-    "static/js/3.d51e1c66.chunk.js": "/remote-assignments/week-1/static/js/3.d51e1c66.chunk.js",
-    "static/js/3.d51e1c66.chunk.js.map": "/remote-assignments/week-1/static/js/3.d51e1c66.chunk.js.map",
-    "index.html": "/remote-assignments/week-1/index.html",
-    "static/css/main.da916936.chunk.css.map": "/remote-assignments/week-1/static/css/main.da916936.chunk.css.map",
-    "static/js/2.9ed747f7.chunk.js.LICENSE.txt": "/remote-assignments/week-1/static/js/2.9ed747f7.chunk.js.LICENSE.txt"
+    "main.css": "/remote-assignments-week-1/static/css/main.da916936.chunk.css",
+    "main.js": "/remote-assignments-week-1/static/js/main.b9d1dc60.chunk.js",
+    "main.js.map": "/remote-assignments-week-1/static/js/main.b9d1dc60.chunk.js.map",
+    "runtime-main.js": "/remote-assignments-week-1/static/js/runtime-main.9c8a9cf3.js",
+    "runtime-main.js.map": "/remote-assignments-week-1/static/js/runtime-main.9c8a9cf3.js.map",
+    "static/js/2.9ed747f7.chunk.js": "/remote-assignments-week-1/static/js/2.9ed747f7.chunk.js",
+    "static/js/2.9ed747f7.chunk.js.map": "/remote-assignments-week-1/static/js/2.9ed747f7.chunk.js.map",
+    "static/js/3.d51e1c66.chunk.js": "/remote-assignments-week-1/static/js/3.d51e1c66.chunk.js",
+    "static/js/3.d51e1c66.chunk.js.map": "/remote-assignments-week-1/static/js/3.d51e1c66.chunk.js.map",
+    "index.html": "/remote-assignments-week-1/index.html",
+    "static/css/main.da916936.chunk.css.map": "/remote-assignments-week-1/static/css/main.da916936.chunk.css.map",
+    "static/js/2.9ed747f7.chunk.js.LICENSE.txt": "/remote-assignments-week-1/static/js/2.9ed747f7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.37006e08.js",
+    "static/js/runtime-main.9c8a9cf3.js",
     "static/js/2.9ed747f7.chunk.js",
     "static/css/main.da916936.chunk.css",
     "static/js/main.b9d1dc60.chunk.js"
