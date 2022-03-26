@@ -6,6 +6,10 @@
   margin: 10px;
 }
 
+.pt-10 {
+  padding: 10px;
+}
+
 @each $color, $value in $theme-colors {
   .bg-#{$color} {
     background-color: $value;

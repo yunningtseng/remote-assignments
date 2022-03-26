@@ -11,21 +11,21 @@ function Home() {
       <div className="home__container">
         <div className="home__container__content">
           <div className="bg-secondary home__contentBox">
-            <p style={{ padding: "10px" }}>Content Box 1</p>
+            <p className="pt-10">Content Box 1</p>
           </div>
 
           <div className="bg-secondary home__contentBox">
-            <p style={{ padding: "10px" }}>Content Box 2</p>
+            <p className="pt-10">Content Box 2</p>
           </div>
         </div>
 
         <div className="home__container__content">
           <div className="bg-secondary home__contentBox">
-            <p style={{ padding: "10px" }}>Content Box 3</p>
+            <p className="pt-10">Content Box 3</p>
           </div>
 
           <div className="bg-secondary home__contentBox">
-            <p style={{ padding: "10px" }}>Content Box 4</p>
+            <p className="pt-10">Content Box 4</p>
           </div>
         </div>
         <div className="mg-10">
