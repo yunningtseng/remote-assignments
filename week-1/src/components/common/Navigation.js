@@ -1,5 +1,4 @@
-import { Fragment } from "react";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 
 function Navigation() {
   const [navExpand, setNavExpand] = useState(false);
@@ -18,22 +17,22 @@ function Navigation() {
         <nav className="nav__pc">
           <ul className="d-flex">
             <li className="mg-10">
-              <a className="nav__item--hover" href="#test">
+              <a className="nav__item--hover" href="#item1">
                 Item 1
               </a>
             </li>
             <li className="mg-10">
-              <a className="nav__item--hover" href="#test">
+              <a className="nav__item--hover" href="#item2">
                 Item 2
               </a>
             </li>
             <li className="mg-10">
-              <a className="nav__item--hover" href="#test">
+              <a className="nav__item--hover" href="#item3">
                 Item 3
               </a>
             </li>
             <li className="mg-10">
-              <a className="nav__item--hover" href="#test">
+              <a className="nav__item--hover" href="#item4">
                 Item 4
               </a>
             </li>
@@ -57,22 +56,22 @@ function Navigation() {
         {navExpand && (
           <ul className="nav__item__mobile">
             <li className="mg-10">
-              <a className="nav__item--hover" href="#test">
+              <a className="nav__item--hover" href="#item1">
                 Item 1
               </a>
             </li>
             <li className="mg-10">
-              <a className="nav__item--hover" href="#test">
+              <a className="nav__item--hover" href="#item2">
                 Item 2
               </a>
             </li>
             <li className="mg-10">
-              <a className="nav__item--hover" href="#test">
+              <a className="nav__item--hover" href="#item3">
                 Item 3
               </a>
             </li>
             <li className="mg-10">
-              <a className="nav__item--hover" href="#test">
+              <a className="nav__item--hover" href="#item4">
                 Item 4
               </a>
             </li>

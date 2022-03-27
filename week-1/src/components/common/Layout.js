@@ -1,12 +1,12 @@
 import Navigation from "./Navigation";
 
-const Layout = (props) => {
+function Layout(props) {
   return (
     <div>
       <Navigation />
       <main>{props.children}</main>
     </div>
   );
-};
+}
 
 export default Layout;
