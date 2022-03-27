@@ -46,7 +46,7 @@ function Navigation() {
             className="nav__icon"
             onClick={switchNavExpandHandler}
           >
-            <span class="material-icons-outlined">menu</span>
+            <span className="material-icons-outlined">menu</span>
           </button>
         </div>
       </div>
