@@ -1,0 +1,139 @@
+/*  nav*/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  padding: 10px 30px;
+}
+
+.nav__title {
+  display: flex;
+  align-items: center;
+}
+
+.nav__mobile {
+  display: none;
+}
+
+.nav__icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 0;
+}
+
+.nav__item__mobile {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav__item__mobile li {
+  margin: 10px;
+}
+
+.nav__pc ul {
+  display: flex;
+}
+
+.nav__pc li {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.nav--btn__mobile {
+  height: 20px;
+}
+
+@media (max-width: 800px) {
+  .nav__pc {
+    display: none;
+  }
+
+  .nav__mobile {
+    display: flex;
+  }
+
+  .nav__item__mobile {
+    display: flex;
+  }
+}
+/* context */
+.context {
+  height: 200px;
+  background-color: #ccddee;
+}
+
+.context__message {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.context__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+.context__section h2 {
+  margin: auto;
+}
+
+.contex__contentBox {
+  text-align: center;
+  height: 150px;
+  font-weight: bolder;
+  background-color: #8899aa;
+}
+
+.contex__contentBox p {
+  padding: 10px;
+}
+
+.contex__btn {
+  display: flex;
+  margin: auto;
+  border: 0;
+  width: 130px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccddee;
+  cursor: pointer;
+}
+
+.context__box2 {
+  margin: 20px;
+  /* display: none; */
+}
+
+/* container */
+.contex__container {
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.contex__container__content {
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+}
+
+.contex__contentBox {
+  margin: 0 10px 20px 10px;
+  width: 600px;
+}
+
+@media (max-width: 500px) {
+  .contex__container__content {
+    display: block;
+  }
+
+  .contex__contentBox {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
