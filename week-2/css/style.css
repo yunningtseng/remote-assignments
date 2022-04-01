@@ -1,4 +1,4 @@
-/*  nav*/
+/* nav */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -11,64 +11,72 @@
   align-items: center;
 }
 
-.nav__mobile {
-  display: none;
-}
-
-.nav__icon {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  border: 0;
-}
-
-.nav__item__mobile {
-  display: none;
-  flex-direction: column;
-  align-items: center;
-}
-
-.nav__item__mobile li {
-  margin: 10px;
-}
-
-.nav__pc ul {
+.nav--pc ul {
   display: flex;
 }
 
-.nav__pc li {
+/* nav pc */
+.nav--pc li {
   text-decoration: none;
   margin: 10px;
 }
 
-.nav--btn__mobile {
-  height: 20px;
+/* nav mobile btn */
+.nav--mobile {
+  display: none;
+}
+
+.nav__btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 0;
+}
+
+.nav__btn--mobile {
+  width: 25px;
+  z-index: 2;
+}
+
+/*  nav mobile list */
+.nav__item--mobile {
+  display: none;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+.nav__item--mobile a {
+  margin: 10px;
 }
 
 @media (max-width: 800px) {
-  .nav__pc {
+  .nav--pc {
     display: none;
   }
 
-  .nav__mobile {
-    display: flex;
-  }
-
-  .nav__item__mobile {
+  .nav--mobile {
     display: flex;
   }
 }
-/* context */
+
+/* box context */
 .context {
-  height: 200px;
-  background-color: #ccddee;
+  display: flex;
 }
 
 .context__message {
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 30px;
   font-weight: bolder;
+  height: 150px;
+  background-color: #ccddee;
 }
 
 .context__section {
@@ -95,19 +103,19 @@
 
 .contex__btn {
   display: flex;
-  margin: auto;
-  border: 0;
-  width: 130px;
-  height: 40px;
   justify-content: center;
   align-items: center;
-  background-color: #ccddee;
+  margin: auto;
+  width: 130px;
+  height: 40px;
+  border: 0;
   cursor: pointer;
+  background-color: #ccddee;
 }
 
-.context__box2 {
-  margin: 20px;
-  /* display: none; */
+.context__section2 {
+  display: none;
+  margin-top: 20px;
 }
 
 /* container */
@@ -117,9 +125,9 @@
 }
 
 .contex__container__content {
+  display: flex;
   margin: auto;
   max-width: 1200px;
-  display: flex;
 }
 
 .contex__contentBox {

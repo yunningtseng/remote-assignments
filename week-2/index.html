@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width = device, initial-scale = 1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="base.css" />
+    <title>RWD Page Practice</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/base.css" />
   </head>
 
   <body>
@@ -14,7 +15,7 @@
         <p>Website Title/Logo</p>
       </div>
       <!-- NOTE pc -->
-      <nav class="nav__pc">
+      <nav class="nav--pc">
         <ul>
           <li>
             <a href="#item1">Item 1</a>
@@ -32,30 +33,31 @@
       </nav>
 
       <!-- NOTE mobile hamburger -->
-      <div class="nav__mobile">
-        <button type="button" class="nav__icon">
-          <img src="img/menu.png" class="nav--btn__mobile" />
+      <div class="nav--mobile">
+        <button type="button" class="nav__btn">
+          <img id="nav__image" src="img/menu.png" class="nav__btn--mobile" alt=""/>
         </button>
+      </div>
+
+      <!-- NOTE mobile nav -->
+      <div class="nav__item--mobile">
+        <ul>
+          <li>
+            <a href="#item1">Item 1</a>
+          </li>
+          <li>
+            <a href="#item2">Item 2</a>
+          </li>
+          <li>
+            <a href="#item3">Item 3</a>
+          </li>
+          <li>
+            <a href="#item4">Item 4</a>
+          </li>
+        </ul>
       </div>
     </div>
 
-    <!-- NOTE mobile nav -->
-    <nav>
-      <ul class="nav__item__mobile">
-        <li>
-          <a href="#item1">Item 1</a>
-        </li>
-        <li>
-          <a href="#item2">Item 2</a>
-        </li>
-        <li>
-          <a href="#item3">Item 3</a>
-        </li>
-        <li>
-          <a href="#item4">Item 4</a>
-        </li>
-      </ul>
-    </nav>
     <!-- NOTE context -->
     <div class="contex">
       <div id="context__message" class="context__message">Welcome Message</div>
@@ -87,8 +89,9 @@
         <button type="button" class="contex__btn">Call to Action</button>
       </div>
     </div>
-    <!-- NOTE click -->
-    <div class="context__box2">
+
+    <!-- NOTE click 展開 box2 section-->
+    <div class="context__section2">
       <div class="contex__container">
         <div class="contex__container__content">
           <div class="contex__contentBox">
