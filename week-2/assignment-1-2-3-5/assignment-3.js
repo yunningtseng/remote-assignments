@@ -2,7 +2,7 @@
 function avg(data) {
   let productLength = data.size;
   let totalPrice = 0;
-  for (i = 0; i < productLength; i++) {
+  for (let i = 0; i < productLength; i++) {
     let price = data.products[i].price;
     totalPrice += price;
   }

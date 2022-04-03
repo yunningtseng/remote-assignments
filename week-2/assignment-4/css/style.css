@@ -1,0 +1,147 @@
+/* nav */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  padding: 10px 30px;
+}
+
+.nav__title {
+  display: flex;
+  align-items: center;
+}
+
+.nav--pc ul {
+  display: flex;
+}
+
+/* nav pc */
+.nav--pc li {
+  text-decoration: none;
+  margin: 10px;
+}
+
+/* nav mobile btn */
+.nav--mobile {
+  display: none;
+}
+
+.nav__btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 0;
+}
+
+.nav__btn--mobile {
+  width: 25px;
+  z-index: 2;
+}
+
+/*  nav mobile list */
+.nav__item--mobile {
+  display: none;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+.nav__item--mobile a {
+  margin: 10px;
+}
+
+@media (max-width: 800px) {
+  .nav--pc {
+    display: none;
+  }
+
+  .nav--mobile {
+    display: flex;
+  }
+}
+
+/* box context */
+.context {
+  display: flex;
+}
+
+.context__message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+  height: 150px;
+  background-color: #ccddee;
+}
+
+.context__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+.context__section h2 {
+  margin: auto;
+}
+
+.contex__contentBox {
+  text-align: center;
+  height: 150px;
+  font-weight: bolder;
+  background-color: #8899aa;
+}
+
+.contex__contentBox p {
+  padding: 10px;
+}
+
+.contex__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 130px;
+  height: 40px;
+  border: 0;
+  cursor: pointer;
+  background-color: #ccddee;
+}
+
+.context__section2 {
+  display: none;
+  margin-top: 20px;
+}
+
+/* container */
+.contex__container {
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.contex__container__content {
+  display: flex;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.contex__contentBox {
+  margin: 0 10px 20px 10px;
+  width: 600px;
+}
+
+@media (max-width: 500px) {
+  .contex__container__content {
+    display: block;
+  }
+
+  .contex__contentBox {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
