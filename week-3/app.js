@@ -1,14 +1,12 @@
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
-// const cookieParser = require("cookie-parser");
 
 const port = 3000;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 // > 在 Express 中提供靜態檔案
 app.use(express.static("public"));
-// app.use(cookieParser());
 
 app.set("view engine", "pug");
 
