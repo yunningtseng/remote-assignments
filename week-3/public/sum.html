@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width = device, initial-scale = 1.0" />
+    <title>Week 3 Assignment</title>
+  </head>
+  <!-- > assignment 3 -->
+  <body>
+    <section>
+      <label>Enter a number:</label>
+      <input type="number" id="number" />
+      <button type="submit" id="btn">Submit</button>
+      <div>result:</div>
+      <div id="resultDiv"></div>
+    </section>
+
+    <script>
+      const number = document.getElementById("number");
+      const btn = document.getElementById("btn");
+      const result = document.getElementById("resultDiv");
+
+      // > create XMLHttpRequest request object
+      let xhr = new XMLHttpRequest();
+
+      // > create callback function，監聽回傳資料
+      xhr.onreadystatechange = () => {
+        // *　readyState 4: DONE，status 200: successful request
+        {
+          if (xhr.readyState == 4) {
+            if (xhr.status == 200) {
+              // > 回傳的資料呈現在頁面上
+              result.innerHTML = xhr.responseText;
+            } else {
+              alert(xhr.statusText);
+            }
+          }
+        }
+      };
+
+      btn.addEventListener("click", () => {
+        // > open request
+        xhr.open(
+          "GET",
+          "http://localhost:3000/getData?number=" + number.value,
+          true
+        );
+
+        // > send request
+        xhr.send();
+      });
+    </script>
+  </body>
+</html>
