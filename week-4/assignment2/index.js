@@ -16,19 +16,26 @@ function ajax(src, callback) {
 }
 
 function render(data) {
-  let div = document.createElement("div");
-  let productName = "zzz"
-  // let productName = document.
-  div.innerHTML = `<div>
-  <h1>${productName}</h1>
-  <p></p>
-  <p></p>
-  </div>`
+  let root = document.getElementById("root");
 
+  // - 迴圈 data
+  // 1. 篩出 productName、productPrice、productDescription
+  // 2. 用 creatElement 產出多個 tag
+  // 3. 將資料放進 tag
+  // 4. 將多個 tags append 進 root
 
-  document.body.appendChild(div);
+  data.forEach((product) => {
+    let productName = document.createElement("h1");
+    let productPrice = document.createElement("p");
+    let productDescription = document.createElement("p");
+    // console.log(product.name);
 
-  // document.createElement() and appendChild() are preferred. No innerHTML or something alike
+    productName.textContent = product.name;
+    productPrice.textContent = product["price"];
+    productDescription.textContent = product["description"];
+
+    root.append(productName, productPrice, productDescription);
+  });
 }
 
 ajax(
@@ -37,5 +44,3 @@ ajax(
     render(response);
   }
 );
-
-// you should get product information in JSON format and render data in the page

@@ -1,0 +1,14 @@
+div {
+  padding: 30px;
+}
+
+h1 {
+  color: rgb(99, 213, 71);
+  text-decoration: underline;
+}
+
+p {
+  color: rgb(44, 166, 127);
+  font-weight: bold;
+  font-style: italic;
+}
