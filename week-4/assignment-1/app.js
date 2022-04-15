@@ -4,6 +4,7 @@ function delayResult(n1, n2, delayTime, callback) {
   let result = n1 + n2;
 
   // - 把 callback 包在匿名 function 中
+  // - callback(result) 等同於 console.log(result) or window.alert(result)
   window.setTimeout(() => {
     callback(result);
   }, delayTime);
@@ -12,12 +13,9 @@ function delayResult(n1, n2, delayTime, callback) {
   // window.setTimeout(callback(result), delayTime);
 }
 
-delayResult(4, 5, 3000, function (result) {
-  console.log(result);
-});
+// - console.log => callback
+delayedResult(4, 5, 3000, console.log);
 // 9，3秒後出現
 
-delayResult(-5, 10, 5000, function (result) {
-  window.alert(result);
-});
+delayedResult(-5, 10, 2000, window.alert);
 // 5，2 秒後出現
